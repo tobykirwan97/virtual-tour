@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-durton-tour",
-      "name": "durton tour",
+      "id": "0-tour1",
+      "name": "Tour1",
       "levels": [
         {
           "tileSize": 256,
@@ -18,7 +18,7 @@ var APP_DATA = {
           "size": 1024
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 750,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -26,88 +26,124 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.7730134038440681,
-          "pitch": 0.6443245659464054,
-          "rotation": 6.283185307179586,
-          "target": "1-durton-tour1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-durton-tour1",
-      "name": "durton tour1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.2514865928344907,
-          "pitch": 0.6680811734506857,
-          "rotation": 6.283185307179586,
-          "target": "0-durton-tour"
-        },
-        {
-          "yaw": -0.059361946248086994,
-          "pitch": 0.3888325803201571,
-          "rotation": 5.497787143782138,
-          "target": "2-durton-tour2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-durton-tour2",
-      "name": "durton tour2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.121543802401014,
-          "pitch": 0.5144336160322265,
+          "yaw": 1.6136629030705159,
+          "pitch": 0.7130033952813459,
           "rotation": 0,
-          "target": "1-durton-tour1"
+          "target": "1-tour2"
+        },
+        {
+          "yaw": -0.05919884621725302,
+          "pitch": 0.5054902702923627,
+          "rotation": 0,
+          "target": "2-tour3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-tour2",
+      "name": "Tour2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 750,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.5969565171250046,
+          "pitch": 0.7528609001104236,
+          "rotation": 0,
+          "target": "0-tour1"
+        },
+        {
+          "yaw": -0.6120480337243652,
+          "pitch": 0.45109058737124563,
+          "rotation": 0.7853981633974483,
+          "target": "2-tour3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-tour3",
+      "name": "Tour3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 750,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.043182920783841894,
+          "pitch": 0.5536681963223558,
+          "rotation": 0,
+          "target": "3-tour4"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-tour4",
+      "name": "Tour4",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 750,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.133509409499263,
+          "pitch": 0.7365613839775342,
+          "rotation": 0,
+          "target": "2-tour3"
         }
       ],
       "infoHotspots": []
@@ -116,8 +152,8 @@ var APP_DATA = {
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": false,
-    "fullscreenButton": true,
+    "autorotateEnabled": true,
+    "fullscreenButton": false,
     "viewControlButtons": false
   }
 };
